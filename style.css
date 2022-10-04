@@ -1,0 +1,612 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    overflow-y: auto;
+}
+
+.container{
+    position:relative;
+    width:100%;
+}
+
+.FirstSection-1{
+    width:838px;
+    height:540px;
+    float:left;
+}
+
+.LogoDiv{
+    width: 380px;
+    height: 140px;
+}
+
+.SwiggyLogo{
+    margin: 61px 165px;
+}
+
+.LoginDiv{
+    margin:-58px 600px;
+    width:40px;
+    height:20px;
+}
+
+.login{
+    font-weight: 600;
+    font-size:14px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.login:hover{
+    color:#fc8019;
+    cursor:pointer;
+}
+
+.SignupDiv{
+    width: 95px;
+    height: 38px;
+    margin: 25px 672px;
+}
+
+.signup{
+    color:white;
+    background-color: black;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    width: 112px;
+    height: 41px;
+    font-size: 15px;
+}
+
+.signup:hover{
+    cursor:pointer;
+    box-shadow: 0 2px 8px #d4d5d9;
+}
+
+.FirstSection-2{
+    width:681px;
+    height:540px;
+    float:left;
+    background-image: url('images/food\ img.webp');
+    background-size: cover;
+}
+
+.HungryDiv{
+    width: 155px;
+    height:50px;
+    margin:84px 166px;
+}
+
+.Hungry{
+    font-size: 40px;
+    font-weight: 600;
+    color: #282c3f;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.TextDiv{
+    width: 505px;
+    height: 30px;
+    margin: -79px 165px;
+}
+
+.Text{
+    font-weight: 300;
+    font-size: 24px;
+    color:#686b78;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.Content{
+    width: 837px;
+    height: 343px;
+}
+
+.Location{
+    width: 500px;
+    height: 59px;
+    margin: 110px 166px;
+    padding: 0px 23px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.Location:focus{
+    outline: none;
+    border: 1px solid #fc8019;
+}
+
+.FindfoodDiv{
+    width:131px;
+    height:59px;
+    margin:-169px 656px;
+}
+
+.FindFood{
+    color: white;
+    background-color: #fc8019;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    width: 130px;
+    height: 59px;
+    font-size: 18px;
+    border: none;
+}
+
+.FindFood:hover{
+    cursor:pointer;
+}
+
+.Text2-div{
+    width:190px;
+    height:15px;
+    margin:200px 167px;
+}
+
+.Text2{
+    font-weight: 400;
+    font-size: 15px;
+    color: #a9abb2;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.Text3-div{
+    width: 630px;
+    height: 17px;
+    margin: -181px 167px;
+}
+
+.Text3-grey{
+    font-weight: 600;
+    font-size: 15px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    color: #686b78;
+    text-decoration: none;
+}
+
+.Text3-nextline{
+    width: 110px;
+    height: 20px;
+    margin: 5px 0px;
+}
+
+.Text3-lightgrey{
+    font-weight: 600;
+    font-size: 15px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    color: #93959f;
+    text-decoration: none;
+}
+
+.SecondSection{
+    width:1519px;
+    height: 375px;
+    position:absolute;
+    top:540px;
+    background: #2b1e16;
+}
+
+.no_min_order_div{
+    width: 100px;
+    height: 215px;
+    margin: 4px 238px;
+}
+
+.no_min_order{
+    width:100px;
+    height:auto;
+}
+
+.live_order_tracking_div{
+    width: 105px;
+    height: 210px;
+    margin: -221px 706px;
+}
+
+.live_order_tracking{
+    width: 105px;
+    height: auto;
+}
+
+.super_fast_delivery_div{
+    width: 115px;
+    height: 200px;
+    margin: 30px 1180px;
+}
+
+.super_fast_delivery{
+    width: 115px;
+    height: auto;
+}
+
+.SecondSection-maintext1-div{
+   width:195px;
+   height:20px;
+   margin:-22px 193px;
+}
+
+.SecondSection-maintext1{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.SecondSection-subtext1-div{
+    width:265px;
+    height:35px;
+    margin:36px 158px;
+}
+
+.SecondSection-subtext1{
+    font-size: 15px;
+    width: 260px;
+    color: #e0cbc1;
+    text-align: center;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.SecondSection-maintext2-div{
+    width: 190px;
+    height: 25px;
+    margin: -108px 665px;
+}
+
+.SecondSection-maintext2{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.SecondSection-subtext2-div{
+    width:265px;
+    height:35px;
+    margin:118px 626px;
+}
+
+.SecondSection-subtext2{
+    font-size: 15px;
+    width: 260px;
+    color: #e0cbc1;
+    text-align: center;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.SecondSection-maintext3-div{
+    width: 230px;
+    height: 25px;
+    margin: -187px 1140px;
+}
+
+.SecondSection-maintext3{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.SecondSection-subtext3-div{
+    width:265px;
+    height:35px;
+    margin:197px 1123px;
+}
+
+.SecondSection-subtext3{
+    font-size: 15px;
+    width: 260px;
+    color: #e0cbc1;
+    text-align: center;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.ThirdSection{
+    width: 1519px;
+    height: 558px;
+    position: absolute;
+    top: 915px;
+}
+
+
+
+.ThirdSection-text1-div{
+    width: 300px;
+    height: 95px;
+    margin: 135px 155px;
+}
+
+.ThirdSection-text1{
+    font-size: 40px;
+    font-weight: 600;
+    width: 300px;
+    letter-spacing: -.45px;
+    color: #282c3f;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.ThirdSection-text2-div{
+    width: 390px;
+    height: 50px;
+    margin: -115px 155px;
+}
+
+.ThirdSection-text2{
+    font-size: 20px;
+    width: 400px;
+    font-weight: 300;
+    color: #7e808c;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.google-play-div{
+    width: 180px;
+    height: 55px;
+    margin: 169px 155px;
+}
+
+.google-play-img{
+    width:180px;
+    height:auto;
+}
+
+.google-play-img:hover{
+    cursor:pointer;
+}
+
+.apple-store-div{
+    width: 180px;
+    height: 55px;
+    margin: -224px 354px;
+}
+
+.apple-store-img{
+    width:180px;
+    height:auto;
+}
+
+.apple-store-img:hover{
+    cursor:pointer;
+}
+
+.phone-1-div{
+    width: 376px;
+    height: 423px;
+    margin: -409px 684px;
+}
+
+.phone-1{
+    width: 376px;
+    height: auto;
+}
+
+.phone-2-div{
+    width: 376px;
+    height: 479px;
+    margin: 65px 1020px;
+}
+
+.phone-2{
+    width: 376px;
+    height: auto;
+}
+
+.FourthSection{
+    width:1519px;
+    height:454px;
+    position: absolute;
+    top: 1472px;
+    background-color: #000;
+}
+
+.FourthSection-content-1{
+    width:183px;
+    height:341px;
+    margin:85px 160px;
+    float:left;
+}
+
+.heading{
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.first-sub-heading{
+    margin-top:30px;
+}
+
+.common-div{
+    margin-top:15px;
+}
+
+.Common-anchor-tag{
+    display: block;
+    color:white;
+    text-decoration: none;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    transform-origin: 0 0;
+    transition: transform .25s, visibility .25s ease-in;
+}
+
+.Common-anchor-tag:hover{
+    transform:scale(1.05);
+}
+
+.FourthSection-content-2{
+    width:183px;
+    height:150px;
+    float:left;
+    margin: 85px -40px;
+}
+
+.FourthSection-content-3{
+    width: 350px;
+    height: 370px;
+    margin: 85px 145px;
+    float: left;
+}
+
+.FourthSection-content-4{
+    width: 350px;
+    height: 200px;
+    margin: -465px 1160px;
+    float: left;
+}
+
+.app-store-2-div{
+    width: 200px;
+    height: 65px;
+}
+
+.app-store-2-img{
+    width: 200px;
+    height: 65px;
+    transform-origin: 0 0;
+    transition: transform .25s, visibility .25s ease-in;
+}
+
+.app-store-2-img:hover{
+    transform: scale(1.05);
+    cursor:pointer;
+}
+
+.google-play-2-div{
+    width: 200px;
+    height: 65px;
+    margin-top:40px;
+}
+
+.google-play-2-img{
+    width: 200px;
+    height: 65px;
+    transform-origin: 0 0;
+    transition: transform .25s, visibility .25s ease-in;
+}
+
+.google-play-2-img:hover{
+    transform: scale(1.05);
+    cursor:pointer;
+}
+
+.footer{
+    width:1519px;
+    height:103px;
+    position: absolute;
+    top: 1915px;
+    background-color: #000;
+}
+
+#underline{
+    width: 1205px;
+    margin: 0px 159px;
+    border: 1px solid #383838;
+}
+
+.footer-logo-div{
+    width: 140px;
+    height: 45px;
+    margin: 25px 158px;
+}
+
+.footer-logo{
+    width:140px;
+    height:auto;
+}
+
+.footer-logo:hover{
+    cursor:pointer;
+}
+
+.footer-text-div{
+    width: 135px;
+    height: 25px;
+    margin: -59px 664px;
+}
+
+.footer-text{
+    font-size: 20px;
+    letter-spacing: -.6px;
+    color:white;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.fblogo-div{
+    width: 25px;
+    height: 30px;
+    margin: 32px 1170px;
+}
+
+.fblogo{
+    width: 25px;
+    height: auto;
+    transform-origin: 0 0;
+    transition: transform .25s, visibility .25s ease-in;
+}
+
+.fblogo:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.pinterestlogo-div{
+    width: 25px;
+    height: 30px;
+    margin: -62px 1224px;
+}
+
+.pinterestlogo{
+    width: 25px;
+    height: auto;
+    transform-origin: 0 0;
+    transition: transform .25s, visibility .25s ease-in;
+}
+
+.pinterestlogo:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.instagramlogo-div{
+    width: 25px;
+    height: 30px;
+    margin: 33px 1281px;
+}
+
+.instagramlogo{
+    width: 25px;
+    height: auto;
+    transform-origin: 0 0;
+    transition: transform .25s, visibility .25s ease-in;
+}
+
+.instagramlogo:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.twitterlogo-div{
+    width: 25px;
+    height: 30px;
+    margin: -63px 1338px;
+}
+
+.twitterlogo{
+    width: 25px;
+    height: auto;
+    transform-origin: 0 0;
+    transition: transform .25s, visibility .25s ease-in;
+}
+
+.twitterlogo:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+
